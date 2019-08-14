@@ -23,5 +23,13 @@
     "lint-staged": "^9.2.1",
     "prettier": "^1.18.2",
     "renovate": "^19.24.1"
+  },
+  "renovate-config": {
+    "default": {
+      "description": "hi85's default config",
+      "extends": [
+        "config:base"
+      ]
+    }
   }
 }
