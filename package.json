@@ -12,17 +12,25 @@
   "bugs": {
     "url": "https://github.com/hi85gh/renovate-config/issues"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [],
-  "keywords": [],
+  "keywords": [
+    "npm",
+    "renovate"
+  ],
   "scripts": {
     "format": "prettier --write \"**/*.{json,md}\"",
+    "release": "standard-version",
     "test": "renovate-config-validator"
   },
   "devDependencies": {
     "husky": "^3.0.3",
     "lint-staged": "^9.2.1",
     "prettier": "^1.18.2",
-    "renovate": "^19.24.1"
+    "renovate": "^19.24.1",
+    "standard-version": "^7.0.0"
   },
   "renovate-config": {
     "default": {
