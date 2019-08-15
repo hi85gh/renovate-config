@@ -1,6 +1,6 @@
 {
   "name": "@hi85/renovate-config",
-  "version": "0.0.1",
+  "version": "0.0.2-beta.0",
   "description": "My shareable config for Renovate",
   "author": "hi85",
   "license": "MIT",
