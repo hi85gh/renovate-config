@@ -21,7 +21,7 @@
     "renovate"
   ],
   "scripts": {
-    "format": "prettier --write \"**/*.{json,md}\"",
+    "format": "prettier --write \"**/*.{json,md,yml}\"",
     "release": "standard-version",
     "test": "renovate-config-validator"
   },
