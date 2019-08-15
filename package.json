@@ -21,8 +21,12 @@
     "renovate"
   ],
   "scripts": {
-    "format": "prettier --write \"**/*.{json,md,yml}\"",
     "release": "standard-version",
+    "release:beta": "npm run release -- --prerelease beta",
+    "release:major": "npm run release -- --release-as major",
+    "release:minor": "npm run release -- --release-as minor",
+    "postrelease": "git push --follow-tags",
+    "format": "prettier --write \"**/*.{json,md,yml}\"",
     "test": "renovate-config-validator"
   },
   "devDependencies": {
