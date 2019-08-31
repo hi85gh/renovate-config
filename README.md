@@ -22,4 +22,4 @@ Note: You don't have to do `npm i -D @hi85/renovate-config`.
 
 ## License
 
-MIT License
+[MIT License](https://opensource.org/licenses/MIT)
