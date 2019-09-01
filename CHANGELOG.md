@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.1](https://github.com/hi85gh/renovate-config/compare/v0.1.0...v0.1.1) (2019-09-01)
+
+
+### Bug Fixes
+
+* change rangeStrategy option from 'replace' to 'bump' ([6d28a7d](https://github.com/hi85gh/renovate-config/commit/6d28a7d))
+
 ## [0.1.0](https://github.com/hi85gh/renovate-config/compare/v0.0.2-beta.0...v0.1.0) (2019-09-01)
 
 
