@@ -1,6 +1,6 @@
 {
   "name": "@hi85/renovate-config",
-  "version": "0.0.2-beta.0",
+  "version": "0.1.0",
   "description": "My shareable config for Renovate",
   "author": "hi85",
   "license": "MIT",
@@ -22,10 +22,6 @@
   ],
   "scripts": {
     "release": "standard-version",
-    "release:beta": "npm run release -- --prerelease beta",
-    "release:major": "npm run release -- --release-as major",
-    "release:minor": "npm run release -- --release-as minor",
-    "postrelease": "git push --follow-tags",
     "format": "prettier --write \"**/*.{json,md,yml}\"",
     "test": "renovate-config-validator"
   },
