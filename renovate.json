@@ -1,7 +1,7 @@
 {
-  "extends": ["@hi85"],
+  "extends": ["@hi85", "@hi85:semanticCommitTypeAllChore"],
   "npm": {
-    "extends": [":automergeMinor"]
+    "extends": ["group:allNonMajor", ":automergeMinor"]
   },
   "schedule": ["after 10am and before 10pm on Saturday"]
 }

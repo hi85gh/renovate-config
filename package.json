@@ -39,15 +39,13 @@
         "config:base",
         ":label(renovate)",
         ":prHourlyLimitNone",
+        ":rebaseStalePrs",
         ":timezone(Asia/Tokyo)"
       ],
       "npm": {
         "commitMessageTopic": "{{prettyDepType}} {{depName}}",
         "extends": [
           ":maintainLockFilesMonthly",
-          ":rebaseStalePrs",
-          ":semanticCommitTypeAll(chore)",
-          ":semanticCommits",
           ":unpublishSafe"
         ],
         "prBodyColumns": [
@@ -62,6 +60,12 @@
         },
         "rangeStrategy": "bump"
       }
+    },
+    "semanticCommitTypeAllChore": {
+      "extends": [
+        ":semanticCommitTypeAll(chore)",
+        ":semanticCommits"
+      ]
     }
   }
 }
