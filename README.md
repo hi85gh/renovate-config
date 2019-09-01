@@ -23,6 +23,57 @@ Enable Renovate in your repo and just `extends` in `renovate.json`.
 
 Note: You don't have to do `npm i -D @hi85/renovate-config`.
 
+## Presets
+
+### `@hi85`
+
+Default preset.
+
+<!-- prettier-ignore -->
+```json
+{
+  "extends": [
+    "config:base",
+    ":label(renovate)",
+    ":prHourlyLimitNone",
+    ":rebaseStalePrs",
+    ":timezone(Asia/Tokyo)"
+  ],
+  "npm": {
+    "commitMessageTopic": "{{prettyDepType}} {{depName}}",
+    "extends": [
+      ":maintainLockFilesMonthly",
+      ":unpublishSafe"
+    ],
+    "prBodyColumns": [
+      "Package",
+      "Update",
+      "Type",
+      "Change",
+      "CompatibilityScore"
+    ],
+    "prBodyDefinitions": {
+      "CompatibilityScore": "[![compatibility-score for {{{depNameEscaped}}}](https://api.dependabot.com/badges/compatibility_score?dependency-name={{{depNameEscaped}}}&package-manager=npm_and_yarn&previous-version={{{fromVersion}}}&new-version={{{toVersion}}})](https://dependabot.com/compatibility-score/?dependency-name={{{depNameEscaped}}}&package-manager=npm_and_yarn&previous-version={{{fromVersion}}}&new-version={{{toVersion}}})"
+    },
+    "rangeStrategy": "bump"
+  }
+}
+```
+
+### `@hi85:semanticCommitTypeAllChore`
+
+Set the semantic commit type for all dependencies to `chore`.
+
+<!-- prettier-ignore -->
+```json
+{
+  "extends": [
+    ":semanticCommitTypeAll(chore)",
+    ":semanticCommits"
+  ]
+}
+```
+
 ## References
 
 - [Renovate Docs](https://renovatebot.com/docs/)
