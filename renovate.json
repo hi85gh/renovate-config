@@ -1,3 +1,7 @@
 {
-  "extends": ["@hi85"]
+  "extends": ["@hi85"],
+  "npm": {
+    "extends": [":automergeMinor"]
+  },
+  "schedule": ["after 10am and before 10pm on Saturday"]
 }
