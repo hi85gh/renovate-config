@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0](https://github.com/hi85gh/renovate-config/compare/v0.1.1...v1.0.0) (2019-09-02)
+
+
+### Features
+
+* separate options into presets ([b0d20f2](https://github.com/hi85gh/renovate-config/commit/b0d20f2))
+
 ### [0.1.1](https://github.com/hi85gh/renovate-config/compare/v0.1.0...v0.1.1) (2019-09-01)
 
 
