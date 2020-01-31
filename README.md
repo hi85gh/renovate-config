@@ -1,7 +1,7 @@
 # @hi85/renovate-config
 
 <a href="https://renovatebot.com">
-  <img src="https://user-images.githubusercontent.com/33993836/64076443-00492b00-cd00-11e9-88ea-c98919eab570.png" alt="Renovate icon" width="80" align="right" />
+  <img src="https://user-images.githubusercontent.com/33993836/73533974-595dec00-4463-11ea-8d56-441853970f73.png" alt="Renovate icon" width="80" align="right" />
 </a>
 
 [![npm version](https://img.shields.io/npm/v/@hi85/renovate-config)](https://www.npmjs.com/package/@hi85/renovate-config)
@@ -57,6 +57,34 @@ Default preset.
     },
     "rangeStrategy": "bump"
   }
+}
+```
+
+### `@hi85:automergeAllNonMajor`
+
+Group and automerge all minor and patch updates.
+
+<!-- prettier-ignore -->
+```json
+{
+  "extends": [
+    "group:allNonMajor",
+    ":automergeMinor"
+  ]
+}
+```
+
+### `@hi85:scheduleWeekly`
+
+Weekly schedule.
+
+<!-- prettier-ignore -->
+```json
+{
+  "extends": [
+    "after 6am on Monday",
+    "before 9am on Monday"
+  ]
 }
 ```
 
