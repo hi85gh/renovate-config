@@ -29,7 +29,7 @@
     "husky": "^4.2.1",
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
-    "renovate": "^19.110.0",
+    "renovate": "^19.117.0",
     "standard-version": "^7.1.0"
   },
   "renovate-config": {
