@@ -30,7 +30,7 @@
     "lint-staged": "^10.2.11",
     "prettier": "^1.19.1",
     "renovate": "^19.239.11",
-    "standard-version": "^7.1.0"
+    "standard-version": "^8.0.1"
   },
   "renovate-config": {
     "default": {
