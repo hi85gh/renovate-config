@@ -67,6 +67,12 @@
         ":automergeMinor"
       ]
     },
+    "scheduleWeekly": {
+      "extends": [
+        "after 6am on Monday",
+        "before 9am on Monday"
+      ]
+    },
     "semanticCommitTypeAllChore": {
       "extends": [
         ":semanticCommitTypeAll(chore)",
