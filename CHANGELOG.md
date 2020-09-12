@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/hi85gh/renovate-config/compare/v1.0.0...v1.1.0) (2020-09-12)
+
+
+### Features
+
+* add automergeAllNonMajor preset ([92b6b0a](https://github.com/hi85gh/renovate-config/commit/92b6b0ac29da37e17f5bd2336802755e73437332))
+* add scheduleWeekly preset ([d4de837](https://github.com/hi85gh/renovate-config/commit/d4de8379d705d0037275281cf3737c87294ba7a9))
+
 ## [1.0.0](https://github.com/hi85gh/renovate-config/compare/v0.1.1...v1.0.0) (2019-09-02)
 
 
