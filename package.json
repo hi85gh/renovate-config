@@ -61,6 +61,12 @@
         "rangeStrategy": "bump"
       }
     },
+    "automergeAllNonMajor": {
+      "extends": [
+        "group:allNonMajor",
+        ":automergeMinor"
+      ]
+    },
     "semanticCommitTypeAllChore": {
       "extends": [
         ":semanticCommitTypeAll(chore)",
