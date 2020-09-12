@@ -26,7 +26,7 @@
     "test": "renovate-config-validator"
   },
   "devDependencies": {
-    "husky": "^4.2.5",
+    "husky": "^4.3.0",
     "lint-staged": "^10.3.0",
     "prettier": "^1.19.1",
     "renovate": "^19.239.11",
