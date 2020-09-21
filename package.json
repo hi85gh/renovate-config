@@ -68,7 +68,7 @@
       ]
     },
     "scheduleWeekly": {
-      "extends": [
+      "schedule": [
         "after 6am on Monday",
         "before 9am on Monday"
       ]
