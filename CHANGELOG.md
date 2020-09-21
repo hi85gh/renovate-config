@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/hi85gh/renovate-config/compare/v1.1.0...v1.1.1) (2020-09-21)
+
+
+### Bug Fixes
+
+* fix schedule option ([ff77f61](https://github.com/hi85gh/renovate-config/commit/ff77f61f39a3404715aa964317c0e6801bb57fa8))
+
 ## [1.1.0](https://github.com/hi85gh/renovate-config/compare/v1.0.0...v1.1.0) (2020-09-12)
 
 
