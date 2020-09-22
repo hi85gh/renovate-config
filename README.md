@@ -81,7 +81,7 @@ Weekly schedule.
 <!-- prettier-ignore -->
 ```json
 {
-  "extends": [
+  "schedule": [
     "after 6am on Monday",
     "before 9am on Monday"
   ]
