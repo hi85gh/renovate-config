@@ -27,9 +27,9 @@
   },
   "devDependencies": {
     "husky": "^4.3.0",
-    "lint-staged": "^10.4.0",
+    "lint-staged": "^10.5.0",
     "prettier": "^2.1.2",
-    "renovate": "^23.41.2",
+    "renovate": "^23.61.0",
     "standard-version": "^9.0.0"
   },
   "renovate-config": {
