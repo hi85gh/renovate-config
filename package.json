@@ -37,6 +37,7 @@
       "description": "hi85's default config",
       "extends": [
         "config:base",
+        "npm:unpublishSafe",
         ":label(renovate)",
         ":prHourlyLimitNone",
         ":rebaseStalePrs",
@@ -45,8 +46,7 @@
       "npm": {
         "commitMessageTopic": "{{prettyDepType}} {{depName}}",
         "extends": [
-          ":maintainLockFilesMonthly",
-          ":unpublishSafe"
+          ":maintainLockFilesMonthly"
         ],
         "rangeStrategy": "bump"
       }
