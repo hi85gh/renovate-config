@@ -6,7 +6,7 @@
 
 [![npm version](https://img.shields.io/npm/v/@hi85/renovate-config)](https://www.npmjs.com/package/@hi85/renovate-config)
 [![CircleCI status](https://img.shields.io/circleci/build/github/hi85gh/renovate-config.svg?label=test)](https://circleci.com/gh/hi85gh/renovate-config)
-[![Renovate status](https://badges.renovateapi.com/github/hi85gh/renovate-config)](https://renovatebot.com/)
+[![Renovate status](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
 ![MIT License](https://img.shields.io/github/license/hi85gh/renovate-config)
 
 My [shareable config](https://renovatebot.com/docs/config-presets/) for [Renovate](https://renovatebot.com).
@@ -34,6 +34,7 @@ Default preset.
 {
   "extends": [
     "config:base",
+    "npm:unpublishSafe",
     ":label(renovate)",
     ":prHourlyLimitNone",
     ":rebaseStalePrs",
@@ -42,19 +43,8 @@ Default preset.
   "npm": {
     "commitMessageTopic": "{{prettyDepType}} {{depName}}",
     "extends": [
-      ":maintainLockFilesMonthly",
-      ":unpublishSafe"
+      ":maintainLockFilesMonthly"
     ],
-    "prBodyColumns": [
-      "Package",
-      "Update",
-      "Type",
-      "Change",
-      "CompatibilityScore"
-    ],
-    "prBodyDefinitions": {
-      "CompatibilityScore": "[![compatibility-score for {{{depNameEscaped}}}](https://api.dependabot.com/badges/compatibility_score?dependency-name={{{depNameEscaped}}}&package-manager=npm_and_yarn&previous-version={{{fromVersion}}}&new-version={{{toVersion}}})](https://dependabot.com/compatibility-score/?dependency-name={{{depNameEscaped}}}&package-manager=npm_and_yarn&previous-version={{{fromVersion}}}&new-version={{{toVersion}}})"
-    },
     "rangeStrategy": "bump"
   }
 }
