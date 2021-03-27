@@ -57,6 +57,12 @@
         ":automergeMinor"
       ]
     },
+    "dashboardIssue": {
+      "extends": [
+        ":dependencyDashboard",
+        ":dependencyDashboardApproval"
+      ]
+    },
     "scheduleWeekly": {
       "schedule": [
         "after 6am on Monday",
