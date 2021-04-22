@@ -26,11 +26,11 @@
     "test": "renovate-config-validator"
   },
   "devDependencies": {
-    "husky": "^4.3.6",
-    "lint-staged": "^10.5.3",
+    "husky": "^4.3.8",
+    "lint-staged": "^10.5.4",
     "prettier": "^2.2.1",
-    "renovate": "^24.11.3",
-    "standard-version": "^9.1.0"
+    "renovate": "^24.119.11",
+    "standard-version": "^9.2.0"
   },
   "renovate-config": {
     "default": {
